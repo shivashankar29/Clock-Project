@@ -1,0 +1,25 @@
+body {
+    background-color: burlywood;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 90px;
+    font-family:sans-serif;
+    letter-spacing: 7px;
+    color: brown;
+}
+@media screen and (max-width:600px) {
+    .clock {
+        position: absolute;
+        font-size: 50px;
+        font-weight: 500;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+}
